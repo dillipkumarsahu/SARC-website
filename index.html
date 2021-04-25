@@ -5,9 +5,113 @@
     <meta name='keywords' content='your, tags'>
     <meta name='description' content='150 words'>
     <title>SARC- Space Advancement And Research Cell</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="assets/js/index.js"></script>
   </head>
   <body>
+      <header class="container-fluid">
+        <div class="row">
+          <div class="col-6 p-3">
+            <h1 class="p-0 m-0">SARC</h1>
+          </div>
+          <div class="col-6 p-3">
+            <button class="btn btn-primary border border-dark rounded-pill px-4 py-2 float-right">Login/Signup</button>
+          </div>
+        </div>
 
+        <nav class="row bg-black text-light d-none" id="desktop-menu">
+            <ul class="mx-auto">
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> Projects</a></li>
+              <li><a href="#"> Learn Rocketery</a></li>
+              <li><a href="#"> Events</a></li>
+              <li><a href="#"> Our Team</a></li>
+              <li><a href="#"> Contact us</a></li>
+            </ul>
+        </nav>
+
+        <nav class="row bg-black text-light d-none overflow-hidden" id="mobile-menu">
+          <button class="p-0 px-3 m-1" id="mobile-menu-btn"><i class="fa fa-bars text-light"></i></button>
+          <ul class="d-none animate__animated animate__slideInDown">
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> Projects</a></li>
+            <li><a href="#"> Learn Rocketery</a></li>
+            <li><a href="#"> Events</a></li>
+            <li><a href="#"> Our Team</a></li>
+            <li><a href="#"> Contact us</a></li>
+          </ul>
+      </nav>
+
+      </header>
+
+
+
+      <section class="container-fluid">
+        <!-- row 1 -->
+          <div class="row bg-light m-3 p-3 rounded-lg shadow-lg">
+            <div class="col-md-8">
+              <h4 class="p-0 m-0 font-weight-bold text-justify">Get started with SARC by joining our diverse community</h4>
+              <p class="p-0 m-0 font-weight-bold" style="color: #8F93B9">Research and work on exciting projects. Learning never stops....</p>
+            </div>
+            <div class="col-md-4 pt-4 pt-lg-0 d-flex justify-content-center align-items-center">
+              <button class="btn btn-warning font-weight-bold px-5">Join us now</button>
+            </div>
+          </div>
+
+          <!-- row 2 -->
+          <div class="row m-2 mx-lg-5 my-lg-4 p-2 p-lg-3 bg-light rounded-lg">
+            <div class="col-md-4 p-0">
+              <img src="assets/imgs/rocket-launch-67723.jpg" alt="rocket-launch-67723" width="100%">
+            </div>
+            <div class="col-md-8 d-flex align-items-center p-4">
+              <h4 class="text-justify p-0 m-0" id="rocket-launch-h4">
+                SARC is the Space Society of Government College of Engineering, Keonjhar. The club comprises energetic and curious youngsters intending to launch a sounding rocket. In SARC we believe in a thriving community of Space Enthusiasts working together to build an ever-growing knowledge and research center.
+              </h4>
+            </div>
+          </div>
+
+          <!-- row 3 -->
+
+      </section>
+
+
+
+      <footer class="container-fluid">
+        <div class="row bg-black p-1">
+          <div class="col-md-5 p-4">
+            <h5 class="p-0 m-0 text-center text-light">Connect with us on social media</h5>
+
+            <div id='social-media' class="w-100 mt-4 d-flex justify-content-around">
+              <button class="btn btn-primary p-0">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </button>
+              <button class="btn btn-primary p-0">
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </button>
+              <button class="btn btn-primary p-0">
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </button>
+              <button class="btn btn-primary p-0">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </footer>
   </body>
 </html>

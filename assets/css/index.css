@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+/* common code */
+.bg-black{
+    background-color: black;
+}
+
+/* common end */
+
+body{
+    background: #C0BCCD;
+
+/* menu */
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+}
+
+nav#mobile-menu ul li{
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a{
+    color: white;
+}
+nav ul li:hover{
+    background: #ccc;
+    transition: 1s;
+    
+}
+nav ul li:hover a{
+    text-decoration: none;
+    color: #000;
+}
+
+#mobile-menu-btn{
+    font-size: 30px;
+    background: none;
+    border:none;
+}
+
+/* end menu */
+
+/* section css */
+
+@media(max-width:768px)
+{
+    #rocket-launch-h4{
+        font-size: 16px;
+    }
+}
+
+
+
+/* footer css */
+#social-media button{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+#social-media button a{
+    text-decoration: none;
+    color: white;
+}
