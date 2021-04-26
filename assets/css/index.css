@@ -12,6 +12,18 @@ body{
     background: #C0BCCD;
 }
 
+#logo-name img{
+    width: 55px;
+}
+@media(max-width:768px)
+{
+    #logo-name img{
+        width: 45px;
+    }
+    #logo-name h1{
+        font-size: 30px;
+    }
+}
 /* menu */
 nav ul{
     list-style: none;
@@ -21,8 +33,8 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    padding: 15px;
-    font-size: 25px;
+    padding: 12px;
+    font-size: 20px;
 }
 
 nav#mobile-menu ul li{
